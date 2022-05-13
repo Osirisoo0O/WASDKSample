@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WASDKSample (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WASDKSample (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
