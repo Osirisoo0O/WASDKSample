@@ -1,4 +1,6 @@
-# WindowsAppSDK Background Task Sample
+# WindowsAppSDK Sample
 
-Simple for Record.
+- [x] Background Task
+
+- [x] App Service
 

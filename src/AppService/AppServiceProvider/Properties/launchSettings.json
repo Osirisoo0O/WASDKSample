@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AppServiceProvider (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AppServiceProvider (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
