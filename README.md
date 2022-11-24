@@ -1,6 +1,6 @@
 # WindowsAppSDK Sample
 
-- [x] Background Task
+✅ Background Task
 
-- [x] App Service
+✅ App Service
 
