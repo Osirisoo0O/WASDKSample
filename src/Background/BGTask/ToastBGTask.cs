@@ -26,8 +26,8 @@ namespace BGTask
         {
             XmlDocument toastXml = ToastNotificationManager.GetTemplateContent(ToastTemplateType.ToastImageAndText02);
             XmlNodeList textElements = toastXml.GetElementsByTagName("text");
-            textElements[0].AppendChild(toastXml.CreateTextNode("A toast example"));
-            textElements[1].AppendChild(toastXml.CreateTextNode("You've changed timezones!"));
+            textElements[0].AppendChild(toastXml.CreateTextNode("A WinUI3 toast example"));
+            textElements[1].AppendChild(toastXml.CreateTextNode("If you got this, it's working!"));
             ToastNotification notification = new(toastXml);
             ToastNotificationManager.CreateToastNotifier().Show(notification);
         }

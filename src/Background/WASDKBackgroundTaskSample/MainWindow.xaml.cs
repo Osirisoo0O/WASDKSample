@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Background;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
@@ -25,12 +26,25 @@ namespace WASDKSample
     {
         public MainWindow()
         {
-            this.InitializeComponent();
+            InitializeComponent();
+            RegisterTask();
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
+        private void MyButton_Click(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Clicked";
+            MyButton.Content = "Clicked";
+        }
+        static void  RegisterTask()
+        {
+            var builder = new BackgroundTaskBuilder
+            {
+                Name = "ToastBGTask",
+                TaskEntryPoint = "BGTask.ToastBGTask"
+            };
+            builder.SetTrigger(new TimeTrigger(15, false));
+
+            _ = builder.Register();
+
         }
     }
 }

@@ -34,7 +34,6 @@ namespace WASDKSample
         public App()
         {
             this.InitializeComponent();
-            RegisterTask();
         }
 
         /// <summary>
@@ -50,17 +49,6 @@ namespace WASDKSample
 
         private Window m_window;
 
-        void RegisterTask()
-        {
-            var builder = new BackgroundTaskBuilder
-            {
-                Name = "ToastBGTask",
-                TaskEntryPoint = "BGTask.ToastBGTask"
-            };
-            builder.SetTrigger(new TimeTrigger(15, false));
-
-            var task = builder.Register();
-
-        }
+    
     }
 }
