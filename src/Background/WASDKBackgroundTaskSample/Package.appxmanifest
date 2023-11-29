@@ -9,8 +9,8 @@
 
   <Identity
     Name="WASDK.BGTask"
-    Publisher="CN=Osirisoo0O"
-    Version="1.0.0.0" />
+    Publisher="CN=setze"
+    Version="1.0.1.0" />
 
   <Properties>
     <DisplayName>WASDK.BGTask</DisplayName>
