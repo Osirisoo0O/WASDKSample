@@ -11,7 +11,7 @@
     <UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
     <SupportedOSPlatformVersion>10.0.22000.0</SupportedOSPlatformVersion>
-	<UseRidGraph>true</UseRidGraph>
+	  <UseRidGraph>true</UseRidGraph>
   </PropertyGroup>
 
   <ItemGroup>
