@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="WASDKAppServiceSample.App"
+    x:Class="AppServiceConsumer.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:WASDKAppServiceSample">
+    xmlns:local="using:AppServiceConsumer">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

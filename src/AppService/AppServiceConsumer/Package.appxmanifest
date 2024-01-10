@@ -3,18 +3,16 @@
 <Package
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
-  xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4"
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
-  IgnorableNamespaces="uap uap3 uap4 rescap">
+  IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="3bd3f21f-c50b-49b6-aecc-59ff846ae0d2"
+    Name="6c34c587-f8ab-4c4b-8881-9e0155426353"
     Publisher="CN=setze"
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>WASDKAppServiceSample</DisplayName>
+    <DisplayName>AppServiceConsumer</DisplayName>
     <PublisherDisplayName>setze</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -33,31 +31,16 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="WASDKAppServiceSample"
-        Description="WASDKAppServiceSample"
+        DisplayName="AppServiceConsumer"
+        Description="AppServiceConsumer"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
-      <Extensions>
-        <uap:Extension Category="windows.appService" EntryPoint="TestService.Great">
-          <uap:AppService Name="com.greatfive.great" uap4:SupportsMultipleInstances="true"/>
-        </uap:Extension>
-      </Extensions>
     </Application>
   </Applications>
-
-	<!-- To host the BgTaskComponent, you must add this activatable class entry -->
-	<Extensions>
-		<Extension Category="windows.activatableClass.inProcessServer">
-			<InProcessServer>
-				<Path>WinRT.Host.dll</Path>
-				<ActivatableClass ActivatableClassId="TestService.Great" ThreadingModel="both" />
-			</InProcessServer>
-		</Extension>
-	</Extensions>
 
   <Capabilities>
     <rescap:Capability Name="runFullTrust" />

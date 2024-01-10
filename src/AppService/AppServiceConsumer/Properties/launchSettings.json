@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "AppServiceConsumer (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AppServiceConsumer (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

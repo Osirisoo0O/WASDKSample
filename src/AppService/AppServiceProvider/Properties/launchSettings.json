@@ -1,9 +1,9 @@
 {
   "profiles": {
-    "AppServiceProvider (Package)": {
+    "WASDKAppServiceSample (Package)": {
       "commandName": "MsixPackage"
     },
-    "AppServiceProvider (Unpackaged)": {
+    "WASDKAppServiceSample (Unpackaged)": {
       "commandName": "Project"
     }
   }
