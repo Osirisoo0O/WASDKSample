@@ -28,9 +28,9 @@ namespace WASDKAppServiceSample
             this.InitializeComponent();
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
+        private void TestBtn_Click(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Clicked";
+            TestBtn.Content = "Clicked";
         }
     }
 }

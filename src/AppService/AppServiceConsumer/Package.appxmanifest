@@ -12,7 +12,7 @@
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>AppServiceConsumer</DisplayName>
+    <DisplayName>App-Consumer-AppService</DisplayName>
     <PublisherDisplayName>setze</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -31,8 +31,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="AppServiceConsumer"
-        Description="AppServiceConsumer"
+        DisplayName="App-Consumer-AppService"
+        Description="App-Consumer-AppService"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
