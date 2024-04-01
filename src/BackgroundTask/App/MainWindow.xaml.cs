@@ -36,6 +36,17 @@ namespace WASDKSample
         }
         static void  RegisterTask()
         {
+            foreach ( var task in BackgroundTaskRegistration.AllTasks)
+            {
+                if (task.Value.Name.Equals("ToastBGTask"))
+                {
+                    task.Value.Unregister(true);
+                    System.Diagnostics.Debug.WriteLine("find registered task and canceled");
+                    break;
+                }
+            }
+
+
             var builder = new BackgroundTaskBuilder
             {
                 Name = "ToastBGTask",
