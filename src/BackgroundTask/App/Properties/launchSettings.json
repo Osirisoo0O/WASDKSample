@@ -1,9 +1,9 @@
 {
   "profiles": {
-    "WASDKSample (Package)": {
+    "App (Package)": {
       "commandName": "MsixPackage"
     },
-    "WASDKSample (Unpackaged)": {
+    "App (Unpackaged)": {
       "commandName": "Project"
     }
   }
