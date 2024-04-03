@@ -24,10 +24,4 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="C:\Users\setze\.nuget\packages\microsoft.windows.cswinrt\2.0.4\hosting\x64\native\WinRT.Host.dll">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>
