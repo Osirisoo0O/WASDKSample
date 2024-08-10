@@ -9,8 +9,8 @@ namespace TestService
     {
         private BackgroundTaskDeferral _deferral;
         private AppServiceConnection _connection;
-        private string[] Names = new string[] { "Alice", "Bob" };
-        private int[] Ages=new int[] { 21, 22 };
+        private string[] Names = ["Alice", "Bob"];
+        private int[] Ages = [21, 22];
 
         
 
@@ -31,7 +31,7 @@ namespace TestService
             var msgDeferral=args.GetDeferral();
 
             ValueSet msg = args.Request.Message;
-            ValueSet returnData = new ValueSet();
+            ValueSet returnData = [];
 
             string command = msg["Command"] as string;
             int? GreatIndex = msg["ID"] as int?;
@@ -75,10 +75,7 @@ namespace TestService
 
         private void TaskInstance_Canceled(IBackgroundTaskInstance sender, BackgroundTaskCancellationReason reason)
         {
-            if (_deferral!=null)
-            {
-                _deferral.Complete();
-            }
+            _deferral?.Complete();
         }
     }
 }
