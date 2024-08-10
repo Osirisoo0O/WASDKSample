@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MathPowerExtension (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MathPowerExtension (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

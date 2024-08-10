@@ -1,0 +1,19 @@
+<Window
+    x:Class="AppHost.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppHost"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="AppHost">
+
+    <NavigationView x:Name="HomeNav" ItemInvoked="HomeNav_ItemInvoked"
+                   Loaded="HomeNav_Loaded" BackRequested="HomeNav_BackRequested">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Icon="Home" Content="Calculate" Tag="AppHost.Views.CalculatePage"/>
+            <NavigationViewItem Icon="Page" Content="Extensions" Tag="AppHost.Views.ExtensionPage"/>
+        </NavigationView.MenuItems>
+        <Frame Name="AppFrame"/>
+    </NavigationView>
+</Window>
