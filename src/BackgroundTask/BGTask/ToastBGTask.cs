@@ -8,7 +8,7 @@ namespace BGTask
     /// <summary>
     /// Toast任务
     /// </summary>
-    public sealed class ToastBGTask : IBackgroundTask
+    public sealed partial class ToastBGTask : IBackgroundTask
     {
         /// <summary>
         /// 程序入口点
