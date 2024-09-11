@@ -3,6 +3,6 @@
 
 |Sample|Check|.NET Version|WinUI3 Version|CsWinRT Version|
 |:-:|:-:|:-:|:-:|:-:|
-|Background Task|✅|8.0|1.6-preview2|2.1.1|
-|App Service|✅ |8.0|1.6-preview2|2.1.1|
+|Background Task|✅|8.0|1.6-preview2|2.1.3|
+|App Service|✅ |8.0|1.6-preview2|2.1.3|
 
