@@ -12,8 +12,8 @@
     <EnableMsixTooling>true</EnableMsixTooling>
     <SupportedOSPlatformVersion>10.0.22621.0</SupportedOSPlatformVersion>
     <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
-	<UseRidGraph>true</UseRidGraph>
-	<WindowsSdkPackageVersion>10.0.22621.39</WindowsSdkPackageVersion>
+	  <UseRidGraph>true</UseRidGraph>
+	  <WindowsSdkPackageVersion>10.0.22621.48</WindowsSdkPackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

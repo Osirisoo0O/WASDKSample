@@ -13,7 +13,7 @@
 		<CsWinRTWindowsMetadata>10.0.22621.0</CsWinRTWindowsMetadata>
 		<PlatformTarget>AnyCPU</PlatformTarget>
 		<GenerateDocumentationFile>False</GenerateDocumentationFile>
-		<WindowsSdkPackageVersion>10.0.22621.39</WindowsSdkPackageVersion>
+		<WindowsSdkPackageVersion>10.0.22621.48</WindowsSdkPackageVersion>
 	</PropertyGroup>
 
 	<ItemGroup>

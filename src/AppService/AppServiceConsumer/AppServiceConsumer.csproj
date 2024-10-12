@@ -11,7 +11,7 @@
     <UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
 	  <UseRidGraph>true</UseRidGraph>
-	  <WindowsSdkPackageVersion>10.0.22621.39</WindowsSdkPackageVersion>
+	  <WindowsSdkPackageVersion>10.0.22621.48</WindowsSdkPackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
